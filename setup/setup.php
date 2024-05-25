@@ -58,7 +58,8 @@ $command4 = "CREATE TABLE `voter` (
 		`name` varchar(100) NOT NULL,
 		`password` varchar(255) NOT NULL,
 		`status` int(255) NOT NULL,
-		`age` int(100) NOT NULL)";
+		`age` int(10) NOT NULL,
+		`area` varchar(100) NOT NULL)";
 
 $ex4 = mysqli_query($con,$command4);
 

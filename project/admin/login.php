@@ -11,6 +11,7 @@ admin_id: <input type="number" name="un">
 password: <input type="text" name="ps">
 <input type="submit" value="submit">
 </form>
+<a href="../home.html">return to home</a>
 </body>
 </html>
 <?php
